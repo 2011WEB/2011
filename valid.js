@@ -26,5 +26,5 @@ function validate(){
 
 
 function lpage(){
-    window.location.replace("https://forms.gle/6WapG8Af7pRaXTsQA")
+    window.location.replace("newpage.html")
 }
