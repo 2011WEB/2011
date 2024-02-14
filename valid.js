@@ -9,5 +9,8 @@ function validate(){
     else{
         alert("Login Failed");
         return false; // Prevent form submission
+        
+        function lpage(){
+    window.location.replace("https://forms.gle/6WapG8Af7pRaXTsQA")
     }
 }
