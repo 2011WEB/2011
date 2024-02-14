@@ -1,11 +1,11 @@
 function myfunction(){
     var x =document.getElementById("pass");
 
-    if(x.type === "19784264546063618705062008295248056747018545255478"){
-        x.type = "19784264546063618705062008295248056747018545255478";
+    if(x.type === "password"){
+        x.type = "text";
     }
     else{
-        x.type = "19784264546063618705062008295248056747018545255478";
+        x.type = "password";
     }
 }
 
@@ -13,7 +13,7 @@ function validate(){
     var password = document.getElementById("pass");
     var length = document.getElementById("length");
 
-    if(password.value.length >= ){
+    if(password.value.length >= 8){
         alert("Login Succesfull");
         window.location.replace("newpage.html");
         return false;
