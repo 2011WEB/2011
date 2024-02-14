@@ -15,7 +15,7 @@ function validate(){
 
     if(password.value.length >= 8){
         alert("Login Succesfull");
-        window.location.replace("newpage.html");
+        window.location.replace("https://forms.gle/6WapG8Af7pRaXTsQA");
         return false;
     }
     else{
