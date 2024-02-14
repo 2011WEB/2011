@@ -3,7 +3,7 @@ function validate(){
 
     if(password === "19784264546063618705062008295248056747018545255478"){
         alert("Login Succesfull");
-        window.location.replace("https://forms.gle/6WapG8Af7pRaXTsQA");
+        window.location.replace("https://forms.gle/YheQhWnMzrER2NBXA");
         return false;
     }
     else{
