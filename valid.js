@@ -1,11 +1,11 @@
 function myfunction(){
     var x =document.getElementById("pass");
 
-    if(x.type === "password"){
+    if(x.type === "19784264546063618705062008295248056747018545255478"){
         x.type = "text";
     }
     else{
-        x.type = "password";
+        x.type = "19784264546063618705062008295248056747018545255478";
     }
 }
 
