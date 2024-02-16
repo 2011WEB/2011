@@ -9,7 +9,6 @@ body{
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .image-button {
   display: inline-block;
   margin: 10px;
@@ -19,17 +18,15 @@ body{
   text-decoration: none;
   color: #000;
   transition: background-color 0.3s;
-}
-
-.image-button:hover {
-  background-color: #f0f0f0;
+  width: 150px; /* Increase the width */
+  height: 150px; /* Increase the height */
 }
 
 .backdrop-photo {
   position: relative;
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 150px; /* Increase the width */
+  height: 150px; /* Increase the height */
   overflow: hidden;
   border-radius: 20px;
   background-color: #f0f0f0;
