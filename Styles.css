@@ -12,10 +12,10 @@ body{
 
 .image-button {
   display: inline-block;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  border: 20px solid #ccc;
+  border-radius: 20px;
   text-decoration: none;
   color: #000;
   transition: background-color 0.3s;
