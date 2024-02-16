@@ -1,0 +1,16 @@
+.image-button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.image-button {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-button img {
+  width: 100%;
+  height: auto;
+}
