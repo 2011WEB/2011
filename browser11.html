@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
 	<title>2011WEB</title>
 	<style>
 		body {
 			background-image: url('browser.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+			font-family: 'Lalezar', cursive;
 		}
 		.container {
 			text-align: center;
@@ -36,8 +38,18 @@
 <body>
 	<div class="container">
 		<h1>تمام فایل ها و اسناد را مشاهده کنید</h1>
-		<button class="btn">ورود به فایل ها</button>
-		<button class="btn">آپلود فایل</button>
+		<button id="btn1" class="btn">ورود به فایل ها</button>
+		<button id="btn2" class="btn">آپلود فایل</button>
 	</div>
+
+	<script>
+	  document.getElementById('btn1').addEventListener('click', function() {
+	    window.open('https://www.example.com/files', '_blank');
+	  });
+
+	  document.getElementById('btn2').addEventListener('click', function() {
+	    window.open('https://www.example.com/upload', '_blank');
+	  });
+	</script>
 </body>
 </html>
