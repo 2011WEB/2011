@@ -3,7 +3,7 @@ function validate(){
 
     if(password === "19784264546063618705062008295248056747018545255478"){
         alert("Login Succesfull");
-        window.location.replace("newpage.html");
+        window.location.replace("start.html");
         return false;
     }
     else{
